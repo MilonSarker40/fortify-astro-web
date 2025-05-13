@@ -1,8 +1,10 @@
 'use client';
+import Protection from '@/components/Protection';
 import { motion } from 'framer-motion';
 
 export default function Home() {
   return (
+    <>
     <main className="flex min-h-screen items-center justify-center bg-white">
       <motion.h1
         initial={{ opacity: 0, y: -50 }}
@@ -13,5 +15,7 @@ export default function Home() {
         Welcome to Motion Demo App 🚀
       </motion.h1>
     </main>
+    <Protection />
+    </>
   );
 }
