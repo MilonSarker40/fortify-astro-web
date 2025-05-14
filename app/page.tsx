@@ -1,5 +1,7 @@
 'use client';
+import Pricing from '@/components/Pricing';
 import Protection from '@/components/Protection';
+import CustomerReviews from '@/components/Reviews/CustomerReviews';
 import { motion } from 'framer-motion';
 
 export default function Home() {
@@ -15,6 +17,8 @@ export default function Home() {
         Welcome to Motion Demo App 🚀
       </motion.h1>
     </main>
+    <Pricing />
+    <CustomerReviews />
     <Protection />
     </>
   );
