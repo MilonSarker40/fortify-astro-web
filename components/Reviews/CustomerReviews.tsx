@@ -36,10 +36,9 @@ const CustomerReviews = () => {
 
   return (
     <div className="py-16">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto">
 
-        <SectionHeading tagline='12,000+ Happy Customers' title='Customer Reviews' subtitle='Your Trusted Partner in Data Protection with Cutting-Edge Solutions for
-Comprehensive Data Security.' />
+        <SectionHeading tagline='12,000+ Happy Customers' title='Customer Reviews' subtitle='Your Trusted Partner in Data Protection with Cutting-Edge Solutions for Comprehensive Data Security.' />
 
         {/* Review Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
